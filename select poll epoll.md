@@ -117,7 +117,7 @@ select，poll，epoll都是IO多路复用的机制。I/O多路复用就通过一
 
 **select的调用过程如下所示：**
 
-**![img](.\image\17201205-8ac47f1f1fcd4773bd4edd947c0bb1f4.png)**
+**![img](./image/17201205-8ac47f1f1fcd4773bd4edd947c0bb1f4.png)**
 
 （1）使用copy_from_user从用户空间拷贝fd_set到内核空间
 

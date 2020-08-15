@@ -32,4 +32,4 @@ struct file file_table[NR_FILE];
 
 在进程的task_struct中有个成员:struct file *filp[NR_OPEN]是进程使用的所有打开文件的文件结构指针表。文件描述符fd即该结构的索引值。下面一张图很好将三者关系展现出来:
 
-![1584499320495](.\image\1584499320495.png)
+![1584499320495](./image/1584499320495.png)
